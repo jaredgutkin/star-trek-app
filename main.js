@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', apiRequest)
+document.querySelector('#getButton').addEventListener('click', apiRequest)
 
 async function apiRequest(){
     const alienName = document.querySelector('input').value
